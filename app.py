@@ -1,7 +1,7 @@
 #from ctypes import alignment
 import streamlit as st
 import pickle
-import regex as re
+import re
 from afinn import Afinn
 af= Afinn(language='en', emoticons=False, word_boundary=True)
 
