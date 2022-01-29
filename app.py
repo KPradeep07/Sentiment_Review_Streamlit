@@ -16,7 +16,7 @@ def score_calc(text):
     lst= text.split()
     sco=0
     for i in range(len(lst)):
-        if lst[i-1]=="not" or "no":
+        if lst[i-1]=="not":
             score = af.score(lst[i])*(-1)
         else:
             score =af.score(lst[i])
